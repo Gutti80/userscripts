@@ -490,7 +490,7 @@ function do_script() {
 window.addEventListener("DOMContentLoaded", function() { do_script() }, false);
 
 // fix initial player size bug
-	if (!readCookie("player_width")){createCookie("player_width","640",1)};
+	if (!readCookie("player_width")){createC("player_width","640",1)};
 // to skip agree screen
 	createCookie("agreeterms","1",30);
 // this cookie removes most add's
